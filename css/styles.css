@@ -485,6 +485,13 @@ img {
   margin-bottom: 16px;
 }
 
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
 .social-list-link-footer {
   display: flex;
   justify-content: center;
