@@ -358,6 +358,10 @@ img {
   fill: currentColor;
 }
 
+.client-logo {
+  fill: currentColor;
+}
+
 .customers-link:hover .customers-logo {
   color: var(--btn-hover-color);
 }
@@ -368,7 +372,8 @@ img {
 
 .customers-link:hover,
 .customers-link:focus {
-border-color: var(--btn-hover-color);
+  color: var(--btn-hover-color);
+  border-color: var(--btn-hover-color);
 }
 
 /* portfolio project-list, project-list-item */
