@@ -331,10 +331,6 @@ img {
 }
 
 /* customers */
-.customers-logo {
-  fill: currentColor;
-}
-
 .customers-list {
   display: flex;
   gap: 24px;
@@ -358,12 +354,16 @@ img {
   padding: 16px 32px;
 }
 
+.customers-logo {
+  fill: currentColor;
+}
+
 .customers-link:hover .customers-logo {
-  fill: var(--btn-hover-color);
+  color: var(--btn-hover-color);
 }
 
 .customers-link:focus .customers-logo {
-  fill: var(--btn-hover-color);
+  color: var(--btn-hover-color);
 }
 
 .customers-link:hover,
