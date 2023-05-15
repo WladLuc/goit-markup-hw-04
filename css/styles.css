@@ -374,9 +374,12 @@ img {
 }
 
 .project-list-item {
-  display: flex;
   width: calc((100% - 48px) / 3);
   background-color: var(--header-bg-color);
+}
+
+.project-link {
+  display: block;
 }
 
 .project-link:hover,
@@ -489,7 +492,6 @@ img {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-top: 8px;
 }
 
 .social-list-link-footer {
